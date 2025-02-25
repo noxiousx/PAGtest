@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artificial Grass - Transform Your Garden</title>
+  <link rel="icon" type="image/png" href="Resources/Photos/favicon.ico">
+  <style>
+    /* Reset y estilos generales */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      /* Espacio para la navbar fija */
+      padding-top: 70px;
+    }
+    
+    /* Navbar Styles */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #16a085;
+      color: white;
+      padding: 15px 20px;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar li {
+      margin: 0 15px;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .navbar a:hover {
+      color: #1abc9c;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background-image: url('Resources/Photos/back.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero-logo {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .cta-button {
+      padding: 15px 30px;
+      background-color: #16a085;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #1abc9c;
+    }
+    
+    /* Secciones: Services, Benefits, Testimonials, Contact */
+    .services, .benefits, .testimonials, .contact {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .services h2, .benefits h2, .testimonials h2, .contact h2 {
+      color: #16a085;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    .services .service, 
+    .benefits .benefit, 
+    .testimonials .testimonial {
+      display: inline-block;
+      width: 30%;
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+      vertical-align: top;
+    }
+    .service img, .benefit img {
+      width: 50px;
+      margin-bottom: 15px;
+    }
+    .testimonial p {
+      font-style: italic;
+    }
+    .contact {
+      background-color: #16a085;
+      color: white;
+    }
+    
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #16a085;
+      color: white;
+      margin-top: 20px;
+    }
+    
+    /* ======================================================
+       Responsive Media Queries
+       ====================================================== */
+    @media (max-width: 1024px) {
+      .hero {
+        padding: 80px 20px;
+      }
+      .hero h1 {
+        font-size: 36px;
+      }
+      .hero p {
+        font-size: 18px;
+      }
+      .cta-button {
+        font-size: 16px;
+        padding: 12px 25px;
+      }
+      .services .service, 
+      .benefits .benefit, 
+      .testimonials .testimonial {
+        width: 45%;
+        margin: 15px;
+        padding: 15px;
+      }
+    }
+ 

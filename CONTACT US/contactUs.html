@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos - Artificial Grass</title>
+  <link rel="icon" type="image/png" href="../Resources/Photos/favicon.ico">
+  <style>
+    /* Estilos Generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    /* Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #16a085;
+      color: white;
+      padding: 15px 20px;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+    }
+    .navbar .logo {
+      height: 40px;
+      margin-right: 20px;
+    }
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      flex: 1;
+    }
+    .navbar li {
+      display: inline;
+      margin-right: 30px;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .navbar a:hover {
+      color: #1abc9c;
+    }
+    /* Contenedor Principal */
+    main.container {
+      max-width: 800px;
+      margin: 100px auto 20px; /* margen superior para no quedar oculto tras el navbar */
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    /* Sección de Contacto */
+    .contact-section h2 {
+      text-align: center;
+      color: #16a085;
+      margin-bottom: 20px;
+    }
+    .contact-details p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+    .contact-details a {
+      color: #16a085;
+      text-decoration: none;
+    }
+    .contact-details a:hover {
+      text-decoration: underline;
+    }
+    /* Sección de Mapa */
+    .map-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .map-container h3 {
+      color: #16a085;
+      margin-bottom: 10px;
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+    /* Sección de Redes Sociales */
+    .social-media {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .social-media h3 {
+      color: #16a085;
+      margin-bottom: 10px;
+    }
+    .social-media a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 24px;
+      color: #16a085;
+      transition: color 0.3s;
+    }
+    .social-media a:hover {
+      color: #1abc9c;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #16a085;
+      color: white;
+      margin-top: 20px;
+    }
+
+    /* =============================
+       Media Queries para Responsividad
+       ============================= */
+    @media (max-width: 768px) {
+      .navbar ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      .navbar li {
+        display: block;
+        margin: 10px 0;
+      }
+      main.container {
+        margin: 120px 10px 20px;
+        padding: 15px;
+      }
+      .map-container iframe {
+        height: 250px;
+      }
+    }
+    @media (max-width: 480px) {
+      .contact-details p {
+        font-size: 14px;
+      }
+      .navbar a {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../PROYECTOS/projects.html">Our Projects</a></li>
+      <li><a href="../PRODUCTOS/products.html">Our Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <!-- Contenido Principal -->
+  <main class="container">
+    <!-- Sección de Contacto -->
+    <section class="contact-section">
+      <h2>Contáctanos</h2>
+      <div class="contact-details">
+        <p>Si deseas obtener más información sobre nuestros productos o servicios, no dudes en ponerte en contacto con nosotros.</p>
+        <p>Email: <a href="ppradera94@gmail.com">ppradera94@gmail.com</a></p>
+        <p>Teléfono: <a href="+1 813-981-2878">+1 813-981-2878</a></p>
+        <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+      </div>
+    </section>
+
+    <!-- Sección de Mapa -->
+    <section class="map-container">
+      <h3>Encuéntranos</h3>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093746!2d144.9537363153166!3d-37.81627997975182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f3c7d9%3A0x5045675218ce6e0!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1600000000000!5m2!1sen!2sau" 
+        allowfullscreen="" 
+        aria-hidden="false" 
+        tabindex="0"></iframe>
+    </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section class="social-media">
+      <h3>Síguenos en Redes Sociales</h3>
+      <a href="https://www.facebook.com/profile.php?id=61573352278918" target="_blank" title="Facebook">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="24" height="24">
+      </a>
+      <a href="https://www.instagram.com/pradera_artificial_grass/" target="_blank" title="Instagram">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" width="24" height="24">
+      </a>
+      <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="24" height="24">
+      </a>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Pradera Artificial Grass LLC. All Reserved Rights.</p>
+  </footer>
+
+  <!-- Add Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

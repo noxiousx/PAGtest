@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestros Productos - Césped Artificial</title>
+  <link rel="icon" type="image/png" href="../Resources/Photos/favicon.ico">
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    /* Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #16a085;
+      color: white;
+      padding: 15px 20px;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar li {
+      margin-right: 30px;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .navbar a:hover {
+      color: #1abc9c;
+    }
+    /* Header */
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 80px 20px 20px;
+      text-align: center;
+      margin-top: 60px; /* Evita que la navbar fija se superponga */
+    }
+    /* Sección de Productos */
+    .productos {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .producto {
+      background: white;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      vertical-align: top;
+    }
+    .producto img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+    button {
+      background: #27ae60;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    button:hover {
+      background: #1abc9c;
+    }
+    /* Footer */
+    footer {
+      background: #16a085;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+    /* Responsive Media Queries */
+    @media (max-width: 1024px) {
+      .producto {
+        width: 45%;
+      }
+    }
+    @media (max-width: 768px) {
+      .navbar ul {
+        flex-direction: column;
+      }
+      .navbar li {
+        margin: 10px 0;
+      }
+      header {
+        padding: 60px 10px 20px;
+      }
+      .producto {
+        width: 90%;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="../index.html">H
